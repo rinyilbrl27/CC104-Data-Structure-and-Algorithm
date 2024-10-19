@@ -25,11 +25,12 @@ header {
     border-radius: 10px;
     background: linear-gradient(135deg, #7caff6, #def0ff66);    
     border: 1px rgb(0, 0, 0) solid;
+    margin-bottom: 20px;
 
 }
 
 .note-container {
-    margin: 2em;
+    margin: 0em;
     padding: 1em;
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -72,7 +73,7 @@ header {
 
 #notes-list {
     margin: 2em;
-    padding: 1em;
+    padding: 0em;
 }
     
 .note {
