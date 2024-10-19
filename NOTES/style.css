@@ -23,14 +23,13 @@ header {
     padding: 1em;
     text-align: center;
     border-radius: 10px;
-    background: linear-gradient(135deg, #7caff6, #def0ff66);    
+    background: linear-gradient(135deg, #78b0ff, #dcefff66);    
     border: 1px rgb(0, 0, 0) solid;
     margin-bottom: 20px;
 
 }
 
 .note-container {
-    margin: 0em;
     padding: 1em;
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -39,7 +38,7 @@ header {
     box-sizing: border-box;
     background: linear-gradient(140deg, #ffffff, #ffffff);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 #note-input {
@@ -74,16 +73,22 @@ header {
 
 #notes-list {
     padding: 1em;
-}
+    overflow-y: auto; 
+    max-height: 550px; 
+    }
+    #notes-list::-webkit-scrollbar {
+        display: none;
+    }
     
-.note {
+    .note {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 1em;
     margin-bottom: 1em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-}
+    word-break: break-word; 
+    }
 
 .delete-btn{
     background-color: rgb(226, 226, 226);
