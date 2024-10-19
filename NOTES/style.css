@@ -39,6 +39,7 @@ header {
     box-sizing: border-box;
     background: linear-gradient(140deg, #ffffff, #ffffff);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
 }
 
 #note-input {
@@ -72,8 +73,7 @@ header {
 }
 
 #notes-list {
-    margin: 2em;
-    padding: 0em;
+    padding: 1em;
 }
     
 .note {
