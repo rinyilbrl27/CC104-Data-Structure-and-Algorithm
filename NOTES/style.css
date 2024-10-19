@@ -1,0 +1,108 @@
+body {
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container{
+    min-height: 100vh;
+    background: linear-gradient(140deg, #ddeaff, #4ea4ff);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 10px;
+    opacity: 20px;
+}
+
+header {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #7caff6, #def0ff66);    
+    border: 1px rgb(0, 0, 0) solid;
+
+}
+
+.note-container {
+    margin: 2em;
+    padding: 1em;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background: linear-gradient(140deg, #ffffff, #ffffff);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#note-input {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 1em;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#add-note-btn {
+    background-color: hsl(209, 94%, 69%);
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border: 1px black solid;
+}
+#add-note-btn:hover{
+    background-color: #9fcdfe;
+    color:  #000000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#notes-list {
+    margin: 2em;
+    padding: 1em;
+}
+    
+.note {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.delete-btn{
+    background-color: rgb(226, 226, 226);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: box-shadow 0.15s, opacity 0.15s;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.delete-btn:hover{ 
+    box-shadow: 5px 5px 10px rgba(0, 89, 255, 0.319);
+    color: #0b50ff;
+    background-color: #ffffff;
+}
+.delete-btn:active{
+    opacity: 0.5;
+}
