@@ -38,7 +38,7 @@ header {
     box-sizing: border-box;
     background: linear-gradient(140deg, #ffffff, #ffffff);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    margin-bottom: 20px;
+
 }
 
 #note-input {
@@ -72,10 +72,9 @@ header {
 }
 
 #notes-list {
-    margin: 0em;
-    padding: 1em;
+    margin: 1em;
     overflow-y: auto; 
-    max-height: 550px; 
+    max-height: 400px; 
     }
     #notes-list::-webkit-scrollbar {
         display: none;
@@ -106,8 +105,8 @@ header {
 }
 
 .delete-btn:hover{ 
-    box-shadow: 5px 5px 10px rgba(0, 89, 255, 0.319);
-    color: #0b50ff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.319);
+    color: #000000;
     background-color: #ffffff;
 }
 .delete-btn:active{
